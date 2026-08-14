@@ -31,7 +31,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node server.js",
+    "start": "next start -p $PORT"
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",
